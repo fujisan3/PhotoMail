@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE6A62F81A0C522800B508FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6A62F71A0C522800B508FE /* Foundation.framework */; };
+		CE6A62FC1A0C522800B508FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6A62FB1A0C522800B508FE /* UIKit.framework */; };
+		CE6A63021A0C522800B508FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE6A63001A0C522800B508FE /* InfoPlist.strings */; };
+		CE6A63041A0C522800B508FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A63031A0C522800B508FE /* main.m */; };
+		CE6A63081A0C522800B508FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A63071A0C522800B508FE /* AppDelegate.m */; };
+		CE6A630B1A0C522800B508FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6A63091A0C522800B508FE /* Main.storyboard */; };
+		CE6A630E1A0C522800B508FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A630D1A0C522800B508FE /* ViewController.m */; };
+		CE6A63101A0C522800B508FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6A630F1A0C522800B508FE /* Images.xcassets */; };
+		CE6A63171A0C522800B508FE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6A63161A0C522800B508FE /* XCTest.framework */; };
+		CE6A63181A0C522800B508FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6A62F71A0C522800B508FE /* Foundation.framework */; };
+		CE6A63191A0C522800B508FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6A62FB1A0C522800B508FE /* UIKit.framework */; };
+		CE6A63211A0C522800B508FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE6A631F1A0C522800B508FE /* InfoPlist.strings */; };
+		CE6A63231A0C522800B508FE /* PhotoMailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A63221A0C522800B508FE /* PhotoMailTests.m */; };
+		CE6A632D1A0C67B200B508FE /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6A632C1A0C67B200B508FE /* MessageUI.framework */; };
+		CEB875AD1A0E008F004DF548 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEB875AC1A0E008F004DF548 /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE6A631A1A0C522800B508FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6A62EC1A0C522800B508FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6A62F31A0C522800B508FE;
+			remoteInfo = PhotoMail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE6A62F41A0C522800B508FE /* PhotoMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6A62F71A0C522800B508FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE6A62FB1A0C522800B508FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE6A62FF1A0C522800B508FE /* PhotoMail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoMail-Info.plist"; sourceTree = "<group>"; };
+		CE6A63011A0C522800B508FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE6A63031A0C522800B508FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE6A63051A0C522800B508FE /* PhotoMail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoMail-Prefix.pch"; sourceTree = "<group>"; };
+		CE6A63061A0C522800B508FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE6A63071A0C522800B508FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE6A630A1A0C522800B508FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE6A630C1A0C522800B508FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE6A630D1A0C522800B508FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE6A630F1A0C522800B508FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE6A63151A0C522800B508FE /* PhotoMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6A63161A0C522800B508FE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CE6A631E1A0C522800B508FE /* PhotoMailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoMailTests-Info.plist"; sourceTree = "<group>"; };
+		CE6A63201A0C522800B508FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE6A63221A0C522800B508FE /* PhotoMailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoMailTests.m; sourceTree = "<group>"; };
+		CE6A632C1A0C67B200B508FE /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CEB875AC1A0E008F004DF548 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6A62F11A0C522800B508FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6A632D1A0C67B200B508FE /* MessageUI.framework in Frameworks */,
+				CE6A62FC1A0C522800B508FE /* UIKit.framework in Frameworks */,
+				CE6A62F81A0C522800B508FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6A63121A0C522800B508FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6A63171A0C522800B508FE /* XCTest.framework in Frameworks */,
+				CE6A63191A0C522800B508FE /* UIKit.framework in Frameworks */,
+				CE6A63181A0C522800B508FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE6A62EB1A0C522800B508FE = {
+			isa = PBXGroup;
+			children = (
+				CE6A62FD1A0C522800B508FE /* PhotoMail */,
+				CE6A631C1A0C522800B508FE /* PhotoMailTests */,
+				CE6A62F61A0C522800B508FE /* Frameworks */,
+				CE6A62F51A0C522800B508FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6A62F51A0C522800B508FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A62F41A0C522800B508FE /* PhotoMail.app */,
+				CE6A63151A0C522800B508FE /* PhotoMailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6A62F61A0C522800B508FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A632C1A0C67B200B508FE /* MessageUI.framework */,
+				CE6A62F71A0C522800B508FE /* Foundation.framework */,
+				CE6A62FB1A0C522800B508FE /* UIKit.framework */,
+				CE6A63161A0C522800B508FE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE6A62FD1A0C522800B508FE /* PhotoMail */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A63061A0C522800B508FE /* AppDelegate.h */,
+				CE6A63071A0C522800B508FE /* AppDelegate.m */,
+				CE6A63091A0C522800B508FE /* Main.storyboard */,
+				CE6A630C1A0C522800B508FE /* ViewController.h */,
+				CE6A630D1A0C522800B508FE /* ViewController.m */,
+				CE6A630F1A0C522800B508FE /* Images.xcassets */,
+				CE6A62FE1A0C522800B508FE /* Supporting Files */,
+			);
+			path = PhotoMail;
+			sourceTree = "<group>";
+		};
+		CE6A62FE1A0C522800B508FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A62FF1A0C522800B508FE /* PhotoMail-Info.plist */,
+				CE6A63001A0C522800B508FE /* InfoPlist.strings */,
+				CE6A63031A0C522800B508FE /* main.m */,
+				CE6A63051A0C522800B508FE /* PhotoMail-Prefix.pch */,
+				CEB875AC1A0E008F004DF548 /* Settings.bundle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE6A631C1A0C522800B508FE /* PhotoMailTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A63221A0C522800B508FE /* PhotoMailTests.m */,
+				CE6A631D1A0C522800B508FE /* Supporting Files */,
+			);
+			path = PhotoMailTests;
+			sourceTree = "<group>";
+		};
+		CE6A631D1A0C522800B508FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A631E1A0C522800B508FE /* PhotoMailTests-Info.plist */,
+				CE6A631F1A0C522800B508FE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6A62F31A0C522800B508FE /* PhotoMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6A63261A0C522800B508FE /* Build configuration list for PBXNativeTarget "PhotoMail" */;
+			buildPhases = (
+				CE6A62F01A0C522800B508FE /* Sources */,
+				CE6A62F11A0C522800B508FE /* Frameworks */,
+				CE6A62F21A0C522800B508FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoMail;
+			productName = PhotoMail;
+			productReference = CE6A62F41A0C522800B508FE /* PhotoMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE6A63141A0C522800B508FE /* PhotoMailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6A63291A0C522800B508FE /* Build configuration list for PBXNativeTarget "PhotoMailTests" */;
+			buildPhases = (
+				CE6A63111A0C522800B508FE /* Sources */,
+				CE6A63121A0C522800B508FE /* Frameworks */,
+				CE6A63131A0C522800B508FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6A631B1A0C522800B508FE /* PBXTargetDependency */,
+			);
+			name = PhotoMailTests;
+			productName = PhotoMailTests;
+			productReference = CE6A63151A0C522800B508FE /* PhotoMailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE6A62EC1A0C522800B508FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mycompany;
+				TargetAttributes = {
+					CE6A63141A0C522800B508FE = {
+						TestTargetID = CE6A62F31A0C522800B508FE;
+					};
+				};
+			};
+			buildConfigurationList = CE6A62EF1A0C522800B508FE /* Build configuration list for PBXProject "PhotoMail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE6A62EB1A0C522800B508FE;
+			productRefGroup = CE6A62F51A0C522800B508FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6A62F31A0C522800B508FE /* PhotoMail */,
+				CE6A63141A0C522800B508FE /* PhotoMailTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6A62F21A0C522800B508FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB875AD1A0E008F004DF548 /* Settings.bundle in Resources */,
+				CE6A63101A0C522800B508FE /* Images.xcassets in Resources */,
+				CE6A63021A0C522800B508FE /* InfoPlist.strings in Resources */,
+				CE6A630B1A0C522800B508FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6A63131A0C522800B508FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6A63211A0C522800B508FE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6A62F01A0C522800B508FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6A630E1A0C522800B508FE /* ViewController.m in Sources */,
+				CE6A63081A0C522800B508FE /* AppDelegate.m in Sources */,
+				CE6A63041A0C522800B508FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6A63111A0C522800B508FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6A63231A0C522800B508FE /* PhotoMailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE6A631B1A0C522800B508FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6A62F31A0C522800B508FE /* PhotoMail */;
+			targetProxy = CE6A631A1A0C522800B508FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE6A63001A0C522800B508FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6A63011A0C522800B508FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE6A63091A0C522800B508FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6A630A1A0C522800B508FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE6A631F1A0C522800B508FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6A63201A0C522800B508FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE6A63241A0C522800B508FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE6A63251A0C522800B508FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE6A63271A0C522800B508FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoMail/PhotoMail-Prefix.pch";
+				INFOPLIST_FILE = "PhotoMail/PhotoMail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE6A63281A0C522800B508FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoMail/PhotoMail-Prefix.pch";
+				INFOPLIST_FILE = "PhotoMail/PhotoMail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE6A632A1A0C522800B508FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoMail.app/PhotoMail";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoMail/PhotoMail-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PhotoMailTests/PhotoMailTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CE6A632B1A0C522800B508FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoMail.app/PhotoMail";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoMail/PhotoMail-Prefix.pch";
+				INFOPLIST_FILE = "PhotoMailTests/PhotoMailTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6A62EF1A0C522800B508FE /* Build configuration list for PBXProject "PhotoMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6A63241A0C522800B508FE /* Debug */,
+				CE6A63251A0C522800B508FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6A63261A0C522800B508FE /* Build configuration list for PBXNativeTarget "PhotoMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6A63271A0C522800B508FE /* Debug */,
+				CE6A63281A0C522800B508FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6A63291A0C522800B508FE /* Build configuration list for PBXNativeTarget "PhotoMailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6A632A1A0C522800B508FE /* Debug */,
+				CE6A632B1A0C522800B508FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE6A62EC1A0C522800B508FE /* Project object */;
+}
