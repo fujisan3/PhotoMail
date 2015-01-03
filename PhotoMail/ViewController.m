@@ -2,7 +2,7 @@
 //  ViewController.m
 //  PhotoMail
 //
-//  Created by Shingo Fujiwara on 2014/11/07.
+//  Created by Shingo Fujiwara on 2014/11/07. - 2015/1/4 upload to Github
 //  Copyright (c) 2014年 mycompany. All rights reserved.
 //
 
