@@ -2,7 +2,7 @@
 //  PhotoMailTests.m
 //  PhotoMailTests
 //
-//  Created by Shingo Fujiwara on 2014/11/07.
+//  Created by fujisan3 on 2014/11/07.
 //  Copyright (c) 2014年 mycompany. All rights reserved.
 //
 

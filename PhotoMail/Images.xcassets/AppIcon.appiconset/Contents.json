@@ -17,6 +17,11 @@
       "idiom" : "iphone",
       "filename" : "linecons_e00b(0)_120.png",
       "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "size" : "60x60",
+      "scale" : "3x"
     }
   ],
   "info" : {

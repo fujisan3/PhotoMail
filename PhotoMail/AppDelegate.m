@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  PhotoMail
 //
-//  Created by Shingo Fujiwara on 2014/11/07.
+//  Created by fujisan3 on 2014/11/07.
 //  Copyright (c) 2014年 mycompany. All rights reserved.
 //
 
@@ -36,9 +36,6 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    NSLog(@"applicationDidBecomeActive");
-    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    NSLog(@"%@", [userDefaults stringForKey:@"MailAddress"]);
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
